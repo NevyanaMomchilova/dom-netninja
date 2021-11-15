@@ -9,10 +9,10 @@
 
 // console.log(paras);
 
-const paragraph = document.querySelector("p");
-paragraph.innerText = "hello user!";
-paragraph.innerText += " Have a nice day :)";
-console.log(paragraph);
+// const paragraph = document.querySelector("p");
+// paragraph.innerText = "hello user!";
+// paragraph.innerText += " Have a nice day :)";
+// console.log(paragraph);
 
 
 const content = document.querySelector(".content");
@@ -25,6 +25,16 @@ people.forEach(person => {
 });
 
 
+const link = document.querySelector("a");
+link.setAttribute("href", "https://www.thenetninja.co.uk");
+console.log(link.getAttribute("href"));
 
 
+const errMessage = document.querySelector("p");
+errMessage.setAttribute("class", "success");
+errMessage.setAttribute("style", "color: green");
+
+errMessage.style.margin = "50px";
+errMessage.style.fontSize = "34px";
+errMessage.style.color = "";
 
